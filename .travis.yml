@@ -9,59 +9,22 @@ before_script:
 - sudo apt-get -y install texlive-full python-pygments
 script:
 # PRIMO ANNO
-- cd "Primo Anno"
-- cd "Algebra Lineare e Geometria"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape Algebra-geometria.tex
-- cd ..
-- cd "Algoritmi e Strutture Dati"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape algoritmi.tex
-- cd ..
-- cd "Analisi Matematica"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape analisi.tex
-- cd ..
-- cd "Architettura degli Elaboratori"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape architettura.tex
-- cd ..
-- cd "Fondamenti"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape appunti.tex
-- cd ../..
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Algebra Lineare e Geometria/Algebra-geometria.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Algoritmi e Strutture Dati/algoritmi.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Analisi Matematica/analisi.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Architettura degli Elaboratori/architettura.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Fondamenti/appunti.tex"
 # SECONDO ANNO
-- cd "Secondo Anno"
-- cd "Analisi e Progettazione del Software"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape aps.tex
-- cd ..
-- cd "Basi di Dati"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape basi.tex
-- cd ..
-- cd "Fisica"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape fisica.tex
-- cd ..
-- cd "Linguaggi di Programmazione" 
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape linguaggi-di-programmazione.tex
-- cd ..
-- cd "Linguaggi e Computabilità"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape linguaggi-e-computabilità.tex
-- cd ..
-- cd "Metodi algebrici per l'informatica"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape metodi-algebrici-per-informatica.tex
-- cd ..
-- cd "Probabilità e Statistica per l'Informatica"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape statistica.tex
-- cd ..
-- cd "Reti e Sistemi Operativi"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape rso.tex
-- cd ../..
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Analisi e Progettazione del Software/aps.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Basi di Dati/basi.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Fisica/fisica.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Linguaggi di Programmazione/linguaggi-di-programmazione.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Linguaggi e Computabilità/linguaggi-e-computabilità.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Metodi algebrici per l'informatica/metodi-algebrici-per-informatica.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Probabilità e Statistica per l'Informatica/statistica.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Reti e Sistemi Operativi/rso.tex"
 # TERZO ANNO
-- cd "Terzo Anno"
-- cd "Analisi e Progetto di Algoritmi"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape algoritmi2.tex
-- cd ..
-- cd "Elementi di Bioinformatica"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape bioinformatica.tex
-- cd ..
-- cd "Programmazione C++"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape cpp.tex
-- cd ..
-- cd "Ricerca Operativa e Pianificazione delle Risorse"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape ro.tex
-- cd ../..
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Analisi e Progetto di Algoritmi/algoritmi2.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Elementi di Bioinformatica/bioinformatica.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Programmazione C++/cpp.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Ricerca Operativa e Pianificazione delle Risorse/ro.tex"
