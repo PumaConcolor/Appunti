@@ -9,6 +9,7 @@ before_script:
 - sudo apt-get -y install texlive-full python-pygments > /dev/null
 script:
 # PRIMO ANNO
+- echo "Working..."
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Algebra Lineare e Geometria/Algebra-geometria.tex" > /dev/null
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Algoritmi e Strutture Dati/algoritmi.tex" > /dev/null
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Analisi Matematica/analisi.tex" > /dev/null
@@ -28,3 +29,4 @@ script:
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Elementi di Bioinformatica/bioinformatica.tex" > /dev/null
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Programmazione C++/cpp.tex" > /dev/null
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Ricerca Operativa e Pianificazione delle Risorse/ro.tex" > /dev/null
+- echo "End"
