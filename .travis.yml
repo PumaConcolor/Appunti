@@ -5,26 +5,26 @@ env:
   - LANG=C
   - LC_ALL=C
 before_script:
-- sudo apt-get -y update
-- sudo apt-get -y install texlive-full python-pygments
+- sudo apt-get -y update > /dev/null
+- sudo apt-get -y install texlive-full python-pygments > /dev/null
 script:
 # PRIMO ANNO
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Algebra Lineare e Geometria/Algebra-geometria.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Algoritmi e Strutture Dati/algoritmi.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Analisi Matematica/analisi.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Architettura degli Elaboratori/architettura.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Fondamenti/appunti.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Algebra Lineare e Geometria/Algebra-geometria.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Algoritmi e Strutture Dati/algoritmi.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Analisi Matematica/analisi.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Architettura degli Elaboratori/architettura.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Fondamenti/appunti.tex" > /dev/null
 # SECONDO ANNO
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Analisi e Progettazione del Software/aps.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Basi di Dati/basi.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Fisica/fisica.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Linguaggi di Programmazione/linguaggi-di-programmazione.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Linguaggi e Computabilità/linguaggi-e-computabilità.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Metodi algebrici per l'informatica/metodi-algebrici-per-informatica.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Probabilità e Statistica per l'Informatica/statistica.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Reti e Sistemi Operativi/rso.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Analisi e Progettazione del Software/aps.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Basi di Dati/basi.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Fisica/fisica.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Linguaggi di Programmazione/linguaggi-di-programmazione.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Linguaggi e Computabilità/linguaggi-e-computabilità.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Metodi algebrici per l'informatica/metodi-algebrici-per-informatica.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Probabilità e Statistica per l'Informatica/statistica.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Reti e Sistemi Operativi/rso.tex" > /dev/null
 # TERZO ANNO
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Analisi e Progetto di Algoritmi/algoritmi2.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Elementi di Bioinformatica/bioinformatica.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Programmazione C++/cpp.tex"
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Ricerca Operativa e Pianificazione delle Risorse/ro.tex"
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Analisi e Progetto di Algoritmi/algoritmi2.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Elementi di Bioinformatica/bioinformatica.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Programmazione C++/cpp.tex" > /dev/null
+- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Terzo Anno/Ricerca Operativa e Pianificazione delle Risorse/ro.tex" > /dev/null
