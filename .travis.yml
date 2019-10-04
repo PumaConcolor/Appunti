@@ -6,7 +6,7 @@ env:
   - LC_ALL=C
 before_script:
 - sudo apt-get -y update > /dev/null
-- sudo apt-get -y install texlive-full python3-pygments > /dev/null
+- sudo apt-get -y install texlive-full python-pygments python3-pygments > /dev/null
 script:
 # PRIMO ANNO
 - echo "Working..."
