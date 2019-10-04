@@ -13,12 +13,8 @@ script:
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Algebra Lineare e Geometria/Algebra-geometria.tex" > /dev/null
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Algoritmi e Strutture Dati/algoritmi.tex" > /dev/null
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Analisi Matematica/analisi.tex" > /dev/null
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Architettura degli Elaboratori/architettura.tex" > /dev/null
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Primo Anno/Fondamenti/appunti.tex" > /dev/null
 # SECONDO ANNO
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Analisi e Progettazione del Software/aps.tex" > /dev/null
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Basi di Dati/basi.tex" > /dev/null
-- xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Fisica/fisica.tex" > /dev/null
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Linguaggi di Programmazione/linguaggi-di-programmazione.tex" > /dev/null
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Linguaggi e Computabilità/linguaggi-e-computabilità.tex" > /dev/null
 - xelatex -synctex=1 -interaction=nonstopmode --shell-escape "Secondo Anno/Metodi algebrici per l'informatica/metodi-algebrici-per-informatica.tex" > /dev/null
