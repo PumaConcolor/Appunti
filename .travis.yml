@@ -6,7 +6,10 @@ env:
   - LC_ALL=C
 before_script:
 - sudo apt-get -y update > /dev/null
-- sudo apt-get -y install texlive-full python-pygments ipe inkscape > /dev/null
+- sudo apt-get -y install texlive-full python-pygments ipe inkscape wget > /dev/null
+- wget http://www.gust.org.pl/projects/e-foundry/tex-gyre/heros/qhv2.004otf.zip
+- unzip qhv2.004otf.zip
+- mv *.otf ~/.fonts/
 script:
 # PRIMO ANNO
 - echo "Working..."
